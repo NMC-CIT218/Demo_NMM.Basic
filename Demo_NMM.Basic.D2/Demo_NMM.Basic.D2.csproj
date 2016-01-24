@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0A3E59F4-7AFB-4D58-BDD4-E6F534B90DE2}</ProjectGuid>
+    <ProjectGuid>{A78210D0-3763-4658-B86A-110C51CEBA12}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Demo_NMM.Basic</RootNamespace>
-    <AssemblyName>Demo_NMM.Basic</AssemblyName>
+    <RootNamespace>Demo_NMM.Basic.D2</RootNamespace>
+    <AssemblyName>Demo_NMM.Basic.D2</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -20,7 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
-    <ApplicationInsightsResourceId>/subscriptions/0542b051-946e-43be-aac9-f264a617c89f/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/Demo_NMM.Basic</ApplicationInsightsResourceId>
+    <ApplicationInsightsResourceId>/subscriptions/0542b051-946e-43be-aac9-f264a617c89f/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/Demo_NMM.Basic.D2</ApplicationInsightsResourceId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -155,6 +155,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\ai.0.15.0-build58334.js" />
     <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="Scripts\ai.0.21.5-build00175.js" />
+    <Content Include="Scripts\ai.0.21.5-build00175.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -215,9 +217,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>63308</DevelopmentServerPort>
+          <DevelopmentServerPort>38188</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:63308/</IISUrl>
+          <IISUrl>http://localhost:38188/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
