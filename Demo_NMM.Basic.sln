@@ -6,6 +6,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_NMM.Basic.D1", "Demo_N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_NMM.Basic.D2", "Demo_NMM.Basic.D2\Demo_NMM.Basic.D2.csproj", "{A78210D0-3763-4658-B86A-110C51CEBA12}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{20B00962-39F5-4C2A-B989-708C68DC8FC7}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation.txt = Documentation.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

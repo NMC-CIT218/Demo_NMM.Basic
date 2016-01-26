@@ -12,12 +12,20 @@ namespace Demo_NMM.Basic.Controllers
         // GET: Breweries
         public ActionResult Index()
         {
-            List<Brewery> breweries = InitializeBreweries();
-
-            return View(breweries);
+            return View(InitialBreweries());
         }
 
-        private List<Brewery> InitializeBreweries()
+        public ActionResult ShowTable()
+        {
+            return View(InitialBreweries());
+        }
+
+        public ActionResult ShowList()
+        {
+            return View(InitialBreweries());
+        }
+
+        private List<Brewery> InitialBreweries()
         {
             List<Brewery> breweries = new List<Brewery>();
 
