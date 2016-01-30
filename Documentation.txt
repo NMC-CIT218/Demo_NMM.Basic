@@ -1,0 +1,17 @@
+Solution:       Northern Michigan Microbreweries
+Author:         John E Velis
+Created:        1/15/2015
+Last Modified:  1/30/2015
+
+Project:        D1
+Description:    Instantiate a list of Brewery objects in controller
+				Pass list to View and display as list or table
+
+Project:        Sprint 2
+Description:    Add
+
+Project:        Sprint 3
+Description:    Add
+
+Project:        Sprint 4
+Description:    Add
