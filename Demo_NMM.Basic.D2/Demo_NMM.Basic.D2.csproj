@@ -200,6 +200,7 @@
     <Content Include="Views\Breweries\Index.cshtml" />
     <Content Include="Views\Breweries\ShowList.cshtml" />
     <Content Include="Views\Breweries\ShowTable.cshtml" />
+    <Content Include="Views\Breweries\ShowDetail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

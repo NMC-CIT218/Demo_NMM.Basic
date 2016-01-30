@@ -8,7 +8,7 @@ Description:    Instantiate a list of Brewery objects in controller
 				Pass list to View and display as list or table
 
 Project:        Sprint 2
-Description:    Add
+Description:    Session variable is used to persist brewery list
 
 Project:        Sprint 3
 Description:    Add

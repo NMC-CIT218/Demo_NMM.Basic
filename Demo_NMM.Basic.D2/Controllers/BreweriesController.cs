@@ -19,7 +19,6 @@ namespace Demo_NMM.Basic.Controllers
         public ActionResult ShowTable()
         {
             List<Brewery> breweries = (List<Brewery>)Session["Breweries"];
-            breweries.RemoveAt(1);
 
             Session["Breweries"] = breweries;
 
@@ -33,6 +32,14 @@ namespace Demo_NMM.Basic.Controllers
             Session["Breweries"] = breweries;
 
             return View(breweries);
+        }
+
+        public ActionResult ShowDetail(int index)
+        {
+            List<Brewery> breweries = (List<Brewery>)Session["Breweries"];
+            Brewery brewery = breweries[index];
+
+            return View(brewery);
         }
 
         private List<Brewery> InitialBreweries()
