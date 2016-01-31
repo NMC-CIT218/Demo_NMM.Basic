@@ -16,6 +16,7 @@ namespace Demo_NMM.Basic.Models
 
         #region FIELDS
 
+        private int _id;            
         private string _name;
         private string _address;
         private string _city;
@@ -27,6 +28,12 @@ namespace Demo_NMM.Basic.Models
 
 
         #region PROPERTIES
+        
+        public int ID
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
 
         public string Name
         {

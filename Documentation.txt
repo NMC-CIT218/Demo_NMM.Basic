@@ -9,6 +9,7 @@ Description:    Instantiate a list of Brewery objects in controller
 
 Project:        Sprint 2
 Description:    Session variable is used to persist brewery list
+				ID property added to Brewery class
 
 Project:        Sprint 3
 Description:    Add
