@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Demo_NMM.Basic.Models;
 
 namespace Demo_NMM.Basic.Controllers
 {
