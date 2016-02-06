@@ -6,6 +6,9 @@ using System.Web;
 
 namespace Demo_NMM.Basic.DAL
 {
+    /// <summary>
+    /// Interface for the brewery repository
+    /// </summary>
     public interface IBreweryRepository
     {
         IEnumerable<Brewery> SelectAll();
@@ -14,5 +17,6 @@ namespace Demo_NMM.Basic.DAL
         void Update(Brewery brewery);
         void Delete(int id);
         void Save();
+        int GetNextID();
     }
 }

@@ -6,10 +6,19 @@ using System.Web;
 
 namespace Demo_NMM.Basic.DAL
 {
+    /// <summary>
+    /// Class to initialize the data
+    /// </summary>
     public static class Data
     {
+        /// <summary>
+        /// Initialize a list of breweries and store it in a a session variable
+        /// </summary>
         public static void InitializeBreweries()
         {
+            //
+            // Create a temporary list of breweries
+            //
             List<Brewery> breweries = new List<Brewery>();
 
             breweries.Add(new Brewery
@@ -45,6 +54,9 @@ namespace Demo_NMM.Basic.DAL
                 Phone = "N/A"
             });
 
+            //
+            // Store the list of breweries in a session variable
+            //
             HttpContext.Current.Session["Breweries"] = breweries;
 
         }

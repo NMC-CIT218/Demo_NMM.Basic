@@ -12,7 +12,11 @@ Description:    Session variable is used to persist brewery list
 				ID property added to Brewery class
 
 Project:        Sprint 3
-Description:    Add
+Description:    Implement the repository pattern
+				Create the DAL folder
+				Add IBreweryRepository, BreweryRepository, and Data classes to the DAL folder
+				Refactor the BreweryController to use the repository
+				Change the Initialize Data menu item to use the Data.cs class
 
 Project:        Sprint 4
 Description:    Add
