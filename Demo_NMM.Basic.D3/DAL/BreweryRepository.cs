@@ -105,5 +105,15 @@ namespace Demo_NMM.Basic.DAL
         {
             return this.breweries.Max(x => x.ID) + 1;
         }
+
+        /// <summary>
+        /// Dispose method required on all classes implementing the IDisposable interface
+        /// </summary>
+        public void Dispose()
+        {
+            //
+            // Allow the Garbage Collector to handle disposing the list of brewery objects
+            //
+        }
     }
 }

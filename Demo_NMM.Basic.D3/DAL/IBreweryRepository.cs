@@ -9,7 +9,7 @@ namespace Demo_NMM.Basic.DAL
     /// <summary>
     /// Interface for the brewery repository
     /// </summary>
-    public interface IBreweryRepository
+    public interface IBreweryRepository : IDisposable
     {
         IEnumerable<Brewery> SelectAll();
         Brewery SelectByID(int id);
