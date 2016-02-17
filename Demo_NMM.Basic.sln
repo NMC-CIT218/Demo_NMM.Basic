@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_NMM.Basic.D3", "Demo_N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_NMM.Basic.D2.Starter", "Demo_NMM.Basic.D2.Starter\Demo_NMM.Basic.D2.Starter.csproj", "{45487450-243E-4BCC-8D8E-E180EC88375A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_NMM.Basic.D3.Starter", "Demo_NMM.Basic.D3.Starter\Demo_NMM.Basic.D3.Starter.csproj", "{3378AEB2-A2B7-4409-BAD7-1E44CBAE60CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{45487450-243E-4BCC-8D8E-E180EC88375A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45487450-243E-4BCC-8D8E-E180EC88375A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45487450-243E-4BCC-8D8E-E180EC88375A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3378AEB2-A2B7-4409-BAD7-1E44CBAE60CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3378AEB2-A2B7-4409-BAD7-1E44CBAE60CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3378AEB2-A2B7-4409-BAD7-1E44CBAE60CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3378AEB2-A2B7-4409-BAD7-1E44CBAE60CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

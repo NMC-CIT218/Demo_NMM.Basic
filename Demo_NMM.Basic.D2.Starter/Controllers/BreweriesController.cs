@@ -24,8 +24,6 @@ namespace Demo_NMM.Basic.Controllers
         {
             List<Brewery> breweries = (List<Brewery>)Session["Breweries"];
 
-            Session["Breweries"] = breweries;
-
             return View(breweries);
         }
 
@@ -35,8 +33,6 @@ namespace Demo_NMM.Basic.Controllers
         public ActionResult ShowList()
         {
             List<Brewery> breweries = (List<Brewery>)Session["Breweries"];
-
-            Session["Breweries"] = breweries;
 
             return View(breweries);
         }
